@@ -9,6 +9,9 @@
 A simple yet powerful NodeJS Youtube Downloader application with a ReactJS frontend, all coded in TypeScript. This project allows you to download Youtube videos directly through a user-friendly web interface.
 
 
+## Preview 📺
+![Preview](.github/preview.png)
+
 ## Features ✨
 - Download videos directly from Youtube.
 - Select between different video formats.
