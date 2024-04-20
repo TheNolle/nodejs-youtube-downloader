@@ -41,7 +41,7 @@ pnpm run server
 ```
 
 ## Contributing 🤝
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/thenolle/nodejs-youtube-downloader/issues). You can also take a look at the [contributing guide](https://github.com/thenolle/nodejs-youtube-downloader/blob/main/CONTRIBUTING.md).
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/thenolle/nodejs-youtube-downloader/issues). You can also take a look at the [contributing guide](CONTRIBUTING.md).
 
 ## License 📝
 This project is [MIT Licensed](LICENSE).
