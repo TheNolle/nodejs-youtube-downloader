@@ -1,0 +1,23 @@
+main#appComponent {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+        color: #ff6392;
+    }
+
+    img {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 2px solid #ff6392;
+    }
+
+    h2 {
+        margin: 20px 0 10px;
+        color: #ff83a8;
+    }
+}

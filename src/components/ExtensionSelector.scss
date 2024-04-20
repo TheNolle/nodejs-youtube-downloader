@@ -1,0 +1,17 @@
+select.extension-selector {
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ff639280;
+    color: inherit;
+    background-color: #222;
+
+    &:hover {
+        border-color: #ff6392;
+    }
+
+    &:focus {
+        border-color: #ff85a2;
+    }
+}

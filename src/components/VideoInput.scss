@@ -1,0 +1,16 @@
+input.videoInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff639280;
+    color: inherit;
+    background-color: #222;
+
+    &::placeholder {
+        color: #bbb;
+    }
+
+    &:focus {
+        border-bottom-color: #ff85a2;
+    }
+}
