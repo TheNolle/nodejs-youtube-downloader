@@ -6,21 +6,21 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheNolle/NodeJS-youtube-downloader.git"
+    "url": "git+https://github.com/thenolle/nodejs-youtube-downloader.git"
   },
   "bugs": {
-    "url": "https://github.com/TheNolle/NodeJS-youtube-downloader/issues"
+    "url": "https://github.com/thenolle/nodejs-youtube-downloader/issues"
   },
   "author": {
     "name": "Nolly",
     "discord": "https://discord.gg/Fp5vyeJCZF",
-    "github": "https://github.com/TheNolle",
+    "github": "https://github.com/thenolle",
     "patreon": "https://patreon.com/_nolly",
     "website": "https://thenolle.com"
   },
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.mjs --mode production && echo 'RewriteEngine On\\n\\n# If an existing asset or directory is requested go to it as it is\\nRewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]\\nRewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d\\nRewriteRule ^ - [L]\\n\\n# If the requested resource doesn\\'t exist, use index.html\\nRewriteRule ^ /index.html\\n\\n\\n# © 2023 Nolly | Website: thenolle.com | Github: @TheNolle | Patreon: @_nolly' > dist/.htaccess",
+    "build": "webpack --config webpack.config.mjs --mode production; echo 'RewriteEngine On\n\n# If an existing asset or directory is requested go to it as it is\nRewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]\nRewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d\nRewriteRule ^ - [L]\n\n# If the requested resource does not exist, use index.html\nRewriteRule ^ /index.html\n\n\n# © 2023 Nolly | Website: thenolle.com | Github: @TheNolle | Patreon: @_nolly' > dist/.htaccess",
     "start": "node dist/index.js",
     "start:dev": "webpack serve --config webpack.config.mjs --mode development --no-cache --port 3000",
     "server": "ts-node server/server.ts"
