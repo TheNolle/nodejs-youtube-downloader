@@ -55,3 +55,4 @@ Give a ⭐️ if this project helped you!
 - Github: [@TheNolle](https://github.com/thenolle)
 - Patreon: [Support Me](https://patreon.com/_nolly)
 - Buy Me A Coffee: [Donate](https://www.buymeacoffee.com/thenolle)
+- Ko-fi: [Donate](https://ko-fi.com/nolly__)
